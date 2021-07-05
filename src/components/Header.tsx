@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
 
       headerText:{
           color: theme.color.primary,
-          fontWeight:'500'
+          fontWeight:'500',
+          fontFamily:theme.font.regular
       }
 
   });

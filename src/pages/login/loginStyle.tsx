@@ -26,7 +26,8 @@ const stylesLogin = StyleSheet.create({
     hi:{
       color: theme.color.primary,
       fontSize: 20,
-      marginBottom:16
+      marginBottom:16,
+      fontFamily:theme.font.regular
     },
     user:{
       marginBottom:16

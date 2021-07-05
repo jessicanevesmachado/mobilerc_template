@@ -1,15 +1,18 @@
-import React, {useState} from 'react'
+
 import {
-  Text,
-  View,
+  StyleSheet
 } from 'react-native';
- 
-export default function Home() {
+import { theme } from '../../config/theme';
 
-  return ( <View style={{flex: 1, justifyContent:"center", alignItems:"center"}}> 
+const stylesHome = StyleSheet.create({
+     
+     
+    text2:{
+      fontSize:20,
+      fontFamily:'effra',
+      color: theme.color.primary,
+    }
+  
+  });
 
-         <Text>Oieee</Text>
-         </View>
-  );
-}
-
+  export default stylesHome;

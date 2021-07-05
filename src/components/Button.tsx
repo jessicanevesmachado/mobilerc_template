@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize:16,
         padding: 16,
+        fontFamily:theme.font.regular
          
        }
   });

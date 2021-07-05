@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     
     text: { 
            color: 'black',
-           fontSize:14
+           fontSize:14,
+           fontFamily:theme.font.regular
        }
   });

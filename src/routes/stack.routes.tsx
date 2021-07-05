@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack'
 import Login from '../pages/login/loginComponents';
-import Home from '../pages/home/homeStyle';
+import Home from '../pages/home/homeComponents';
  
 const stackRoutes = createStackNavigator();
 
