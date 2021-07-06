@@ -6,8 +6,8 @@ import {
   View,
   Alert
 } from 'react-native';
-import { Header } from '../../components/Header';
-import { Footer } from '../../components/Footer';
+import { Header } from '../../components/HeaderLogin';
+import { Footer } from '../../components/FooterLogin';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { Label } from '../../components/Label'

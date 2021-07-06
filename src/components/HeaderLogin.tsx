@@ -27,11 +27,10 @@ const styles = StyleSheet.create({
         alignItems:'center',
         padding:24,  
         marginTop:getStatusBarHeight(), 
-        backgroundColor:theme.color.primary
       },
 
       headerText:{
-          color: 'white',
+          color: theme.color.primary,
           fontWeight:'500',
           fontFamily:theme.font.regular
       }
